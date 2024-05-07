@@ -19,11 +19,11 @@ TRUNCATE incomes;
 
 
 COPY populations(zip_code, population_count)
-from 'C:\Users\LabUser\Downloads\populationPerZip.csv'
+from 'C:\Users\LabUser\Downloads\d211-main\d211-main\populationPerZip.csv'
 DELIMITER ','
 CSV HEADER;
 
 Copy incomes(zip_code, median_income, margin_error) 
-from PROGRAM 'C:\Users\LabUser\Downloads\MI_ZIP.csv'
+from PROGRAM 'C:\Users\LabUser\Downloads\d211-main\d211-main\MI_ZIP.csv'
 DELIMITER ','
 CSV HEADER;
