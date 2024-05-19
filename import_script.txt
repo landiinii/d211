@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS public.populations
 (
     id serial NOT NULL,
-    zip_code text NOT NULL,
+    zip_code int NOT NULL,
     population_count int,
     PRIMARY KEY (id)
 );
@@ -10,7 +10,7 @@ TRUNCATE populations;
 CREATE TABLE IF NOT EXISTS public.incomes
 (
     id serial NOT NULL,
-    zip_code text NOT NULL,
+    zip_code int NOT NULL,
     median_income int,
     margin_error int,
     PRIMARY KEY (id)
@@ -19,11 +19,11 @@ TRUNCATE incomes;
 
 
 COPY populations(zip_code, population_count)
-from 'C:\Users\Public\Downloads\populationPerZip.csv'
+from 'C:\Users\Public\Downloads\d211-main\populationPerZip.csv'
 DELIMITER ','
 CSV HEADER;
 
 Copy incomes(zip_code, median_income, margin_error) 
-from 'C:\Users\Public\Downloads\MI_ZIP.csv'
+from 'C:\Users\Public\Downloads\d211-main\MI_ZIP.csv'
 DELIMITER ','
 CSV HEADER;

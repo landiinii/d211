@@ -2,6 +2,8 @@ https://www.postgresql.org/docs/current/sql-copy.html
 https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/
 https://stackoverflow.com/questions/54031813/i-am-trying-to-copy-a-file-but-getting-error-message
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/
+https://help.salesforce.com/s/articleView?id=001466279&type=1
+https://help.tableau.com/current/pro/desktop/en-us/actions_filter.htm
 
 
 
