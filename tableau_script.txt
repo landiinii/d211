@@ -13,5 +13,5 @@ select
 from customer c
 join location l on l.location_id=c.location_id 
     and l.state not in ('PR', 'AK', 'HI')
-join incomes i on i.zip_code=l.zip
-join populations p on p.zip_code=l.zip
+join incomes i on i.location_id=l.location_id
+join populations p on p.location_id=l.location_id

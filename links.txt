@@ -1,9 +1,12 @@
 https://www.postgresql.org/docs/current/sql-copy.html
-https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/
-https://stackoverflow.com/questions/54031813/i-am-trying-to-copy-a-file-but-getting-error-message
 https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cast/
 https://help.salesforce.com/s/articleView?id=001466279&type=1
 https://help.tableau.com/current/pro/desktop/en-us/actions_filter.htm
+
+Bureau, U. S. C. (n.d.-a). Median Income By Zip code. Explore census data. https://data.census.gov./table/ACSST5Y2022.S1901?q=median+income&g=010XX00US%248600000
+Bureau, U. S. C. (n.d.-b). Total Population. Explore census data. https://data.census.gov/table/DECENNIALDHC2020.P1?g=010XX00US%248600000
+Create bins from a continuous measure. Tableau. (n.d.-b). https://help.tableau.com/current/pro/desktop/en-us/calculations_bins.htm
+R/datasets on reddit: How to obtain median income data for ZIP codes. Reddit.com. (n.d.). https://www.reddit.com/r/datasets/comments/hixfeo/how_to_obtain_median_income_data_for_zip_codes/ 
 
 
 
